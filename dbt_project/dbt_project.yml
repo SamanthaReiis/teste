@@ -1,0 +1,14 @@
+name: 'dados_ficha_a_desafio'
+version: '1.0.0'
+config-version: 2
+
+profile: 'dados_ficha_a_desafio'
+
+target-path: "target"
+clean-targets:
+  - "target"
+  - "dbt_modules"
+
+models:
+  dados_ficha_a_desafio:
+    +materialized: table  
