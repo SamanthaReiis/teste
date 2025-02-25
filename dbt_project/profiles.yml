@@ -1,0 +1,7 @@
+dados_ficha_a_desafio:
+  target: dev
+  outputs:
+    dev:
+      type: sqlite
+      threads: 1
+      database: src/dados_ficha_a_desafio.db  # Caminho relativo
