@@ -1,0 +1,22 @@
+# Bibliotecas necessárias para o projeto
+
+# Pandas para manipulação de dados
+pandas>=1.1.5
+
+# SQLAlchemy para interagir com o banco de dados SQLite
+sqlalchemy>=1.4.0
+
+# DBT para transformação de dados
+dbt==1.0.0
+
+# SQLite3 para integração com o banco de dados SQLite
+sqlite3
+
+# Dependência necessária para DBT trabalhar com SQLite
+dbt-sqlite==1.0.0
+
+# Para manipulação de datas e tempo
+python-dateutil>=2.8.1
+
+# Para fornecer mais funcionalidades no ambiente de desenvolvimento
+psycopg2>=2.9.1  # Embora não esteja sendo usado diretamente no SQLite, pode ser útil para uso futuro com PostgreSQL, se necessário
